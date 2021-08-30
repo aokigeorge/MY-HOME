@@ -36,3 +36,34 @@ header{
 .features section{
     padding-bottom: 64px;
 }
+
+@media (min-width:900px){
+    .features .container {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .features section{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    .features section:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+
+    
+
+    .features .pic {
+        width: 50%;
+    }
+
+    .features .info {
+        width: 45%;
+    }
+
+
+
+
+
+}
