@@ -45,7 +45,7 @@ header{
 
     .features section{
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
     }
 
     .features section:nth-child(even) {
